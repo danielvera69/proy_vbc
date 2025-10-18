@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+  {{title2}}
+
+</div>
+{% endblock content  %}
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title1}}</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href={% url 'core:home' %}>Inicio</a>
+      </li>
+      <li>
+        <a href="#">Productos</a>
+        
+      </li>
+      <li>
+        <a href="#">Marcas</a>
+       
+      </li>
+      <li>
+        <a href={% url 'core:supplier_list' %}>Proveedores</a>
+        
+      </li>
+    </ul>
+  </nav>
+   <h1>{{title2}}</h1>
+</body>
+</html> {% endcomment %}
+
+  
