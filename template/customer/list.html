@@ -19,12 +19,12 @@
       </tr>
       </thead>
       <tbody>
-       {% for item in suppliers %}
+       {% for item in customers %}
         <tr>
          <td>{{item.name}}</td>
           <td>{{item.ruc}}</td>
           <td>{{item.address}}</td>
-          <td>{{item.phone}}</td>
+          <td><img src={{item.foto.url}} width="50px" alt=""> </td>
           <td>{% if item.state %}
                ✔
               {% else %}
